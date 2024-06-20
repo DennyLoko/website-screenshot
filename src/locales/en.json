@@ -1,0 +1,42 @@
+{
+  "footer": {
+    "star-on-github": "Star On GitHub",
+    "made-with": "Made with",
+    "by": "by",
+    "project-bootstrapped-with": "Project bootstrapped with",
+    "nuxt-template": "Nuxt Template"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "index": {
+    "title": "Website screenshot",
+    "description": "Preview generator for your online pages.",
+    "url": {
+      "placeholder": "Enter your url...",
+      "error": "Invalid URL"
+    },
+    "viewport-resolution": {
+      "title": "Resolution",
+      "info": "The viewport resolution is different from the display resolution. For instance, on a MacBook Pro 15\", the display resolution is 2880x1800 and the viewport resolution is 1440x900.",
+      "preset": "Preset",
+      "width": "Width",
+      "height": "Height",
+      "input-error": "Please enter a number between {0} and {1}"
+    },
+    "shadow": {
+      "title": "Shadow",
+      "info": "The shadow will be less pronounced on the final image due to the scale of the preview."
+    },
+    "corners": "Corners",
+    "window": "Window",
+    "request-error": "An error has occurred. Please try again later.",
+    "send": "Send",
+    "preview-info": "The final image might look different from this preview due to scaling.",
+    "download": {
+      "hint": "You can also save your image with a right clic.",
+      "button": "Download"
+    }
+  }
+}

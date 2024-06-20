@@ -1,0 +1,30 @@
+// Global styling
+html,
+body,
+#__nuxt,
+#__layout,
+#__layout > div {
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+}
+
+// Page Transitions
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 75ms ease-out;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.shadow-small {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+.shadow-medium {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+.shadow-large {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.1);
+}
